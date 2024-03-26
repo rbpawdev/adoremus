@@ -1287,9 +1287,9 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: url("../img/footer-bg.jpg") top center no-repeat;
-  background-size: cover;
-  color: #fff;
+  #background: url("../img/footer-bg.jpg") top center no-repeat;
+  #background-size: cover;
+  color: #000;
   font-size: 14px;
   text-align: center;
   padding: 80px 0;
