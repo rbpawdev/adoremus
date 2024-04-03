@@ -26,6 +26,12 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  
+    <script>	
+       if (typeof navigator.serviceWorker !== 'undefined') {
+    		navigator.serviceWorker.register('sw.js')
+       }
+    </script>
 </head>
 
 <body>
